@@ -774,7 +774,8 @@ __webpack_require__.r(__webpack_exports__);
 var BaseApi = /** @class */ (function () {
     function BaseApi(http) {
         this.http = http;
-        this.baseUrl = 'http://localhost:3000/';
+        // private baseUrl = 'http://localhost:3000/';
+        this.baseUrl = 'https://my-json-server.typicode.com/ArtemSiz/json-server/';
     }
     BaseApi.prototype.getUrl = function (url) {
         if (url === void 0) { url = ''; }
