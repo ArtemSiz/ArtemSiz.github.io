@@ -772,10 +772,10 @@ var NotFoundComponent = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BaseApi", function() { return BaseApi; });
 var BaseApi = /** @class */ (function () {
+    // private baseUrl = 'https://my-json-server.typicode.com/ArtemSiz/json-server/';
     function BaseApi(http) {
         this.http = http;
-        // private baseUrl = 'http://localhost:3000/';
-        this.baseUrl = 'https://my-json-server.typicode.com/ArtemSiz/json-server/';
+        this.baseUrl = 'http://localhost:3000/';
     }
     BaseApi.prototype.getUrl = function (url) {
         if (url === void 0) { url = ''; }
